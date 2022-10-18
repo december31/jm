@@ -1,0 +1,38 @@
+.search-bar {
+	bottom: 20px;
+	z-index: 1;
+	width: 100%;
+	position: absolute;
+	height: 40px;
+
+	.search-bar-container {
+
+		box-shadow: rgb(50 50 93 / 25%) 0 50px 100px -20px, rgb(0 0 0 / 30%) 0 10px 20px -10px;
+		width: 680px;
+		height: 100%;
+		display: flex;
+		border: 1px solid #fff;
+		border-radius: 3px;
+		background: #fff;
+		margin: auto;
+
+		input {
+			color: #303030;
+			padding: 10px 20px;
+			width: 100%;
+			border: none;
+			outline: none;
+		}
+
+		button {
+			background: #303030;
+			color: #fff;
+			border: none;
+			height: 100%;
+			padding: 0 15px;
+			width: 150px;
+			font-weight: bold;
+			border-radius: 0 4px 4px 0;
+		}
+	}
+}

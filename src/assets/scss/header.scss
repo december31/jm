@@ -1,0 +1,140 @@
+.header {
+	.top-header {
+		width: 100%;
+	}
+
+	.top-header>* {
+		width: 100%;
+	}
+
+	.main-header {
+		width: 100%;
+		height: 90px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: "SF Pro Display", sans-serif;
+
+		* {
+			list-style: none;
+			text-decoration: none;
+			color: #303030;
+		}
+
+		.header-container {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 80%;
+			height: 100%;
+
+			.header-logo {
+				height: 100%;
+				width: auto;
+				a {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					height: 100%;
+					img {
+						height: 60%;
+					}
+				}
+			}
+
+			.navbar {
+				display: flex;
+
+				.navbar-item {
+					margin-right: 36px;
+					position: relative;
+
+					a {
+						font-weight: bold;
+						font-size: 0.88rem;
+						text-transform: uppercase;
+					}
+				}
+
+				.navbar-item::after {
+					content: "";
+					opacity: 0;
+					position: absolute;
+					width: 100%;
+					height: 2px;
+					background-color: #f00;
+					transition: 0.2s linear;
+				}
+
+				.navbar-item:hover::after {
+					opacity: 0.8;
+				}
+			}
+
+			.icon-header ul {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				li {
+					margin-left: 20px;
+
+					span {
+						margin-left: 4px;
+					}
+
+					i,
+					span {
+						transition: 0.2s linear;
+					}
+				}
+
+				li:hover i,
+				li:hover span {
+					color: #f00;
+				}
+			}
+		}
+	}
+
+	.header-bottom {
+		height: 47px;
+		background-color: #f2f2f2;
+		padding: 9px;
+
+		* {
+			list-style: none;
+			text-decoration: none;
+		}
+
+		ul {
+			width: 70%;
+			height: 100%;
+			margin: auto;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			flex-direction: row;
+
+			li {
+				height: 100%;
+
+				a {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					height: 100%;
+
+					img {
+						height: 100%;
+					}
+
+					p {
+						color: #989898;
+						margin-left: 20px;
+					}
+				}
+			}
+		}
+	}
+}

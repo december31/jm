@@ -1,0 +1,138 @@
+.products-list-slider {
+	width: 100%;
+
+	* {
+		font-size: 13px;
+		margin-bottom: 6px;
+	}
+
+	.products-list-container {
+		width: 1170px;
+		margin: auto;
+		overflow: hidden;
+
+		.products {
+			display: flex;
+			transition: ease-in-out 1s;
+
+			.product-card {
+				width: calc(100%/6);
+				padding: 0 8px;
+
+				.card-container {
+					width: 100%;
+
+					a {
+						width: 100%;
+						text-decoration: none;
+
+						.image-container {
+							width: 100%;
+							height: 278px;
+							overflow: hidden;
+							transition: 0.1s linear;
+							img {
+								width: 100%;
+								height: 100%;
+							}
+						}
+
+						.image-container:hover {
+							opacity: 0.8;
+						}
+
+						h2 {
+							font-weight: bold;
+							text-overflow: ellipsis;
+							white-space: nowrap;
+							overflow: hidden;
+							color: #303030;
+						}
+					}
+
+					ul {
+						display: flex;
+						justify-content: flex-start;
+						position: relative;
+						list-style: none;
+
+						li:not(li:last-child) {
+							margin-right: 4px;
+							width: 24px;
+							height: 24px;
+							border-radius: 50%;
+							position: relative;
+
+							i {
+								width: 14px;
+								height: 14px;
+								display: block;
+								position: absolute;
+								top: 50%;
+								left: 50%;
+								border-radius: 50%;
+								transform: translate(-50%, -50%);
+							}
+						}
+
+						li:last-child {
+							position: absolute;
+							right: 0;
+							height: 100%;
+							display: flex;
+							align-items: center;
+							cursor: pointer;
+
+							i {
+								font-size: 13px;
+								color: #656565;
+							}
+						}
+					}
+
+					.price {
+						p {
+							color: #f00;
+							font-size: 14px;
+							font-weight: bold;
+						}
+					}
+
+					.bottom-details {
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+
+						.ratting {
+							i {
+								font-size: 11px;
+								margin-right: 1px;
+								color: #ec7304;
+							}
+						}
+
+						p,
+						span {
+							margin-left: 4px;
+							color: #656565;
+							font-weight: bold;
+							font-size: 12px;
+							letter-spacing: -0.4px;
+						}
+					}
+				}
+			}
+		}
+
+		.navigator {
+			display: flex;
+			justify-content: center;
+
+			input {
+				margin: 4px;
+			}
+		}
+
+		padding-bottom: 60px;
+	}
+}
