@@ -31,13 +31,46 @@
 							height: 278px;
 							overflow: hidden;
 							transition: 0.1s linear;
+							position: relative;
 							img {
 								width: 100%;
 								height: 100%;
 							}
+
+							.add-to-cart {
+								width: 100%;
+								height: 100%;
+								position: absolute;
+								top: 0;
+								opacity: 0;
+								transition: all 0.2s;
+								background-color: rgba($color: #fff, $alpha: 0.5);
+								
+								i {
+									width: 80px;
+									height: 80px;
+									font-size: 30px;
+									color: #303030;
+									border: 1px solid #888;
+									border-radius: 50%;
+									display: flex;
+									align-items: center;
+									justify-content: center;
+									position: absolute;
+									top: 50%;
+									left: 50%;
+									transform: translate(-50%, -50%);
+									transition: all 0.2s;
+								}
+
+								i:hover {
+									background-color: rgba($color: #000000, $alpha: 0.5);
+									color: #fff ;
+								}
+							}
 						}
 
-						.image-container:hover {
+						.image-container:hover .add-to-cart {
 							opacity: 0.8;
 						}
 

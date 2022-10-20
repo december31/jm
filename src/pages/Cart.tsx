@@ -8,9 +8,13 @@ import Product from '../Utils/Product';
 import SearchBar from '../components/SearchBar';
 import Button from '../components/Button';
 import CartProduct from '../components/CartProduct';
+import CartProductModel from '../Utils/ChoseProduct';
+import ChoseProduct from '../Utils/ChoseProduct';
 
 interface Props {
-	products: Product[]
+	products: CartProductModel[]
+	changeProductAmount: (e: React.MouseEvent, product: ChoseProduct) => void
+	deleteProduct: (id: number) => void
 }
 
 interface State {
@@ -19,13 +23,22 @@ interface State {
 }
 
 class Cart extends React.Component<Props> {
-	
+
 	state: State = {
 		tempPrice: 0,
 		totalPrice: 0
 	}
 
+	totalPrice = () => {
+		let tp = 0;
+		for (let product of this.props.products) {
+			tp += product.amount * product.option.price;
+		}
+		return tp;
+	}
+
 	render() {
+
 		return (
 			<div className='cart'>
 				<div className="cart-container">
@@ -44,7 +57,7 @@ class Cart extends React.Component<Props> {
 					</div>
 					<div className='cart-content'>
 						<div className='products-list'>
-							<div className='header'>
+							<div className='products-list-header'>
 								<p className='col-2'>hình ảnh</p>
 								<p className='col-4'>thông tin</p>
 								<p className='col-3'>số lượng</p>
@@ -52,7 +65,8 @@ class Cart extends React.Component<Props> {
 							</div>
 							<div className='products-list-container'>
 								{
-									this.props.products.map((product, index) => <CartProduct key={index} product={product}/>)
+									this.props.products.map((product, index) =>
+										<CartProduct deleteProduct={this.props.deleteProduct} changeProductAmount={this.props.changeProductAmount} key={index} product={product} />)
 								}
 							</div>
 						</div>
@@ -62,10 +76,10 @@ class Cart extends React.Component<Props> {
 									<p className='title'>Tóm tắt đơn hàng</p>
 								</div>
 								<div className='row'>
-									<p className='temp-counting'> tạm tính</p><span>{this.state.tempPrice.toLocaleString()}đ</span>
+									<p className='temp-counting'> tạm tính</p><span>{this.totalPrice().toLocaleString()}đ</span>
 								</div>
 								<div className='row'>
-									<p className='total-counting'> tổng tiền</p><span>{this.state.totalPrice.toLocaleString()}đ</span>
+									<p className='total-counting'> tổng tiền</p><span>{this.totalPrice().toLocaleString()}đ</span>
 								</div>
 								<Button to='/' className='order' name='tiến hành đặt hàng' />
 								<Button to='/' className='buy-more' name='mua thêm sản phẩm' />

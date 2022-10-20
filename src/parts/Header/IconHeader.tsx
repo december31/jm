@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom';
 
-const HeaderIcon = () => {
+interface Props {
+	cartProductsCount: number
+}
+
+const HeaderIcon = (props: Props) => {
 	return (
 		<div className="icon-header">
 			<ul>
@@ -11,7 +15,7 @@ const HeaderIcon = () => {
 				</li>
 				<li>
 					<Link to="/cart">
-						<i className="fa-solid fa-cart-shopping"></i><span>0</span>
+						<i className="fa-solid fa-cart-shopping"></i><span>{props.cartProductsCount}</span>
 					</Link>
 				</li>
 				<li>

@@ -10,6 +10,7 @@ import '../assets/scss/home.scss'
 interface Props {
 	products: Product[]
 	sliderImages: string[]
+	addToCart: (e: React.MouseEvent, product: Product, optionSelected: number) => void
 }
 
 class Home extends React.Component<Props> {
@@ -20,7 +21,7 @@ class Home extends React.Component<Props> {
 					<Slider images={this.props.sliderImages} />
 					<ClothTypeCategories />
 					<Collections images={this.props.sliderImages} />
-					<BestSeller products={this.props.products}/>
+					<BestSeller addToCart={this.props.addToCart} products={this.props.products}/>
 				</div>
 			</div>
 		)

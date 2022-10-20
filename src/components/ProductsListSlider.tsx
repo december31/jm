@@ -6,6 +6,7 @@ import '../assets/scss/productsListSlider.scss'
 
 interface Props {
 	products: Product[]
+	addToCart: (e: React.MouseEvent, product: Product, optionSelected: number) => void
 }
 
 function ProductsListSlider(props: Props) {
@@ -17,7 +18,7 @@ function ProductsListSlider(props: Props) {
 	}
 
 	const renderedProducts = props.products.map((product, index) =>
-		<ProductCard key={index} product={product} />
+		<ProductCard addToCart={props.addToCart} key={index} product={product} />
 	)
 
 	const numberOfNavigatorButtons = Math.ceil(renderedProducts.length / 6);
@@ -40,7 +41,7 @@ function ProductsListSlider(props: Props) {
 				<div className='products' style={{
 					transform: `translateX(${-100 * currentPosition * 1 +
 						(renderedProducts.length / (currentPosition * 1 + 1) >= 6 ? 0 :
-						Math.round(6 - renderedProducts.length % 6) * 100/6)}%)`
+							Math.round(6 - renderedProducts.length % 6) * 100 / 6)}%)`
 				}}>
 					{renderedProducts}
 				</div>

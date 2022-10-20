@@ -1,15 +1,39 @@
-import React from 'react'
+import { useState } from 'react';
 import { Link } from 'react-router-dom'
-import Product from '../Utils/Product'
 import '../assets/scss/cartProduct.scss';
+import ChoseProduct from '../Utils/ChoseProduct';
 
 interface Props {
-	product: Product
+	product: ChoseProduct
+	changeProductAmount: (e: React.MouseEvent, product: ChoseProduct) => void
+	deleteProduct: (id: number) => void
 }
 
 function CartProduct(props: Props) {
 
-	const image = require('../assets/images/products/' + props.product.options[0].imageUrl)
+	const image = require('../assets/images/products/' + props.product.option.imageUrl)
+	const [product, setProduct] = useState<ChoseProduct>(props.product);
+
+	const increaseAmount = (e: React.MouseEvent) => {
+		const newprd = product;
+		newprd.amount++;
+		setProduct(newprd)
+		setProduct({ ...product, amount: product.amount })
+		props.changeProductAmount(e, product);
+	}
+	const decreaseAmount = (e: React.MouseEvent) => {
+		if (product.amount > 0) {
+			const newprd = product;
+			newprd.amount--;
+			setProduct(newprd)
+			setProduct({ ...product, amount: product.amount })
+			props.changeProductAmount(e, newprd);
+		}
+	}
+
+	const deleteProduct = () => {
+		props.deleteProduct(product.id);
+	}
 
 	return (
 		<div className='cart-product'>
@@ -22,15 +46,15 @@ function CartProduct(props: Props) {
 			</div>
 			<div className="amount col-3">
 				<div className="amount-container">
-					<i className="fa-solid fa-plus"></i>
-					<span>{1}</span>
-					<i className="fa-solid fa-minus"></i>
+					<i className="fa-solid fa-minus" onClick={(e) => { decreaseAmount(e) }}></i>
+					<span>{product.amount}</span>
+					<i className="fa-solid fa-plus" onClick={(e) => { increaseAmount(e) }}></i>
 				</div>
 			</div>
 			<div className="price col-3">
-				<p>{props.product.options[0].price.toLocaleString()}đ</p>
+				<p>{(product.option.price * product.amount).toLocaleString()}đ</p>
 			</div>
-			<i className="fa-solid fa-x delete"></i>
+			<i className="fa-solid fa-x delete" onClick={() => { deleteProduct() }}></i>
 		</div>
 	)
 }

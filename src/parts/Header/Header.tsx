@@ -11,9 +11,11 @@ import '../../assets/scss/header.scss'
 
 interface Props {
 	navbarContents: NavbarContent[]
+	cartProductsCount: number
 }
 
 class Header extends React.Component<Props> {
+
 	render() {
 		return (
 			<div className="header">
@@ -22,7 +24,7 @@ class Header extends React.Component<Props> {
 					<div className='header-container'>
 						<Logo />
 						<HeaderNavbar navbarContents={this.props.navbarContents} />
-						<IconHeader />
+						<IconHeader cartProductsCount={this.props.cartProductsCount}/>
 					</div>
 				</div>
 				<BottomHeader />

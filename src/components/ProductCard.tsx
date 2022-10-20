@@ -1,18 +1,20 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import api from '../api/api';
 import Product from '../Utils/Product';
 
 interface Props {
 	product: Product
+	addToCart: (e: React.MouseEvent, product: Product, optionSelected: number) => void
 }
 
 function ProductCard(props: Props) {
 
 	const { product } = props
 
-	const [optionSelected, setOptionSelected] = useState(0);
-	const [price, setPrice] = useState(product.options[0].price);
-	const [imageUrl, setImageUrl] = useState(require(`../assets/images/products/${product.options[0].imageUrl}`));
+	const [optionSelected, setOptionSelected] = useState<number>(0);
+	const [price, setPrice] = useState<number>(product.options[0].price);
+	const [imageUrl, setImageUrl] = useState<string>(require(`../assets/images/products/${product.options[0].imageUrl}`));
 
 	const colorOptions = product.options.map((option, index) => {
 		return (
@@ -35,9 +37,14 @@ function ProductCard(props: Props) {
 	return (
 		<div className='product-card'>
 			<div className='card-container'>
-				<Link to={`/product/:id`}>
+				<Link to={`/product/${product.id}`}>
 					<div className='image-container'>
 						<img src={imageUrl} alt="product" />
+						<div className='add-to-cart' onClick={(e) => {
+							props.addToCart(e, product, optionSelected)
+						}}>
+							<i className="fa-solid fa-cart-plus"></i>
+						</div>
 					</div>
 					<div className='details'>
 						<h2>{product.name}</h2>

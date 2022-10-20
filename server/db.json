@@ -1,457 +1,429 @@
 {
-	"products": [
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308,
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 455000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			]
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		}
-	],
-	"navBarContents": [
-		{
-			"id": 1,
-			"path": "/sale",
-			"name": "Giảm giá"
-		},
-		{
-			"id": 2,
-			"path": "/work",
-			"name": "Đồ đi làm"
-		},
-		{
-			"id": 3,
-			"path": "/play",
-			"name": "Đồ đi chơi"
-		},
-		{
-			"id": 4,
-			"path": "/party",
-			"name": "Đồ đi tiệc"
-		},
-		{
-			"id": 5,
-			"path": "/trend",
-			"name": "Xu hướng"
-		},
-		{
-			"id": 6,
-			"path": "/campaign",
-			"name": "A/W'22 CAMPAIGN"
-		},
-		{
-			"id": 7,
-			"path": "/lookbook",
-			"name": "LOOKBOOK"
-		}
-	],
-	"cart-products": [
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308,
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 455000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			]
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		},
-		{
-			"name": "Chân váy suông mặt đai sườn",
-			"options": [
-				{
-					"imageUrl": "black.jpg",
-					"color": "#000",
-					"price": 555000
-				},
-				{
-					"imageUrl": "nude.jpg",
-					"color": "#FFE3E3",
-					"price": 555000
-				},
-				{
-					"imageUrl": "lightblue.jpg",
-					"color": "#96C7C1",
-					"price": 555000
-				}
-			],
-			"category": "skirt",
-			"ratting": 5,
-			"sold": 308
-		}
-	]
+  "products": [
+    {
+      "id": 1,
+      "name": "Chân váy suông mặt đai sườn",
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308,
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 455000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    },
+    {
+      "id": 3,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    },
+    {
+      "id": 4,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    },
+    {
+      "id": 5,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    },
+    {
+      "id": 6,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    },
+    {
+      "id": 7,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    },
+    {
+      "id": 8,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    },
+    {
+      "id": 9,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    },
+    {
+      "id": 10,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    },
+    {
+      "id": 11,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    },
+    {
+      "id": 12,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    },
+    {
+      "id": 13,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    },
+    {
+      "id": 14,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    },
+    {
+      "id": 15,
+      "name": "Chân váy suông mặt đai sườn",
+      "options": [
+        {
+          "imageUrl": "black.jpg",
+          "color": "#000",
+          "price": 555000
+        },
+        {
+          "imageUrl": "nude.jpg",
+          "color": "#FFE3E3",
+          "price": 555000
+        },
+        {
+          "imageUrl": "lightblue.jpg",
+          "color": "#96C7C1",
+          "price": 555000
+        }
+      ],
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308
+    }
+  ],
+  "navBarContents": [
+    {
+      "id": 1,
+      "path": "/sale",
+      "name": "Giảm giá"
+    },
+    {
+      "id": 2,
+      "path": "/work",
+      "name": "Đồ đi làm"
+    },
+    {
+      "id": 3,
+      "path": "/play",
+      "name": "Đồ đi chơi"
+    },
+    {
+      "id": 4,
+      "path": "/party",
+      "name": "Đồ đi tiệc"
+    },
+    {
+      "id": 5,
+      "path": "/trend",
+      "name": "Xu hướng"
+    },
+    {
+      "id": 6,
+      "path": "/campaign",
+      "name": "A/W'22 CAMPAIGN"
+    },
+    {
+      "id": 7,
+      "path": "/lookbook",
+      "name": "LOOKBOOK"
+    }
+  ],
+  "cart-products": [
+    {
+      "id": 4,
+      "name": "Chân váy suông mặt đai sườn",
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308,
+      "option": {
+        "imageUrl": "black.jpg",
+        "color": "#000",
+        "price": 555000
+      },
+      "amount": 1
+    },
+    {
+      "id": 3,
+      "name": "Chân váy suông mặt đai sườn",
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308,
+      "option": {
+        "imageUrl": "nude.jpg",
+        "color": "#FFE3E3",
+        "price": 555000
+      },
+      "amount": 0
+    }
+  ]
 }
