@@ -92,6 +92,7 @@ function App(): React.ReactElement {
       console.log(response);
       getAllCartProducts()
     }
+    alert("Đã thêm vào giỏ hàng")
   }
 
   const changeProductAmount = async (e: React.MouseEvent, product: ChoseProduct) => {

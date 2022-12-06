@@ -1,4 +1,7 @@
 {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "homepage": "http://december.github.io/jm",
   "name": "helloworld",
   "version": "0.1.0",
   "private": true,
@@ -46,6 +49,7 @@
     ]
   },
   "devDependencies": {
-    "@types/webpack-env": "^1.18.0"
+    "@types/webpack-env": "^1.18.0",
+    "gh-pages": "^4.0.0"
   }
 }

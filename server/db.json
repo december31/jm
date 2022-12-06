@@ -400,7 +400,46 @@
   ],
   "cart-products": [
     {
+      "id": 1,
+      "name": "Chân váy suông mặt đai sườn",
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308,
+      "option": {
+        "imageUrl": "black.jpg",
+        "color": "#000",
+        "price": 555000
+      },
+      "amount": 2
+    },
+    {
+      "id": 3,
+      "name": "Chân váy suông mặt đai sườn",
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308,
+      "option": {
+        "imageUrl": "black.jpg",
+        "color": "#000",
+        "price": 555000
+      },
+      "amount": 2
+    },
+    {
       "id": 4,
+      "name": "Chân váy suông mặt đai sườn",
+      "category": "skirt",
+      "ratting": 5,
+      "sold": 308,
+      "option": {
+        "imageUrl": "nude.jpg",
+        "color": "#FFE3E3",
+        "price": 555000
+      },
+      "amount": 20
+    },
+    {
+      "id": 2,
       "name": "Chân váy suông mặt đai sườn",
       "category": "skirt",
       "ratting": 5,
@@ -411,19 +450,6 @@
         "price": 555000
       },
       "amount": 1
-    },
-    {
-      "id": 3,
-      "name": "Chân váy suông mặt đai sườn",
-      "category": "skirt",
-      "ratting": 5,
-      "sold": 308,
-      "option": {
-        "imageUrl": "nude.jpg",
-        "color": "#FFE3E3",
-        "price": 555000
-      },
-      "amount": 0
     }
   ]
 }
