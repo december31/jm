@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/jm/static/css/main.0d9cb800.css",
+    "main.js": "/jm/static/js/main.e5c0f42d.js",
+    "static/media/slider_image_6.jpg": "/jm/static/media/slider_image_6.ec0629176638ff1c8f06.jpg",
+    "static/media/slider_image_5.jpg": "/jm/static/media/slider_image_5.ebb069fdc5842fde4058.jpg",
+    "static/media/slider_image_4.jpg": "/jm/static/media/slider_image_4.031be25217084d13406c.jpg",
+    "static/media/slider_image_3.jpg": "/jm/static/media/slider_image_3.529e27d419ff12847a2a.jpg",
+    "static/media/slider_image_1.jpg": "/jm/static/media/slider_image_1.2d036a97624bda977a19.jpg",
+    "static/media/cart.png": "/jm/static/media/cart.260fbc15c437e7ddb6c8.png",
+    "static/media/slider_image_2.jpg": "/jm/static/media/slider_image_2.330d828c578a48a00daf.jpg",
+    "static/media/product_1.jpg": "/jm/static/media/product_1.69e956640ef83ba81566.jpg",
+    "static/media/nude.jpg": "/jm/static/media/nude.e68c08967b261bd716d8.jpg",
+    "static/media/lightblue.jpg": "/jm/static/media/lightblue.bb5cc27d3c8cf87e86ea.jpg",
+    "static/media/black.jpg": "/jm/static/media/black.5b50c320a466dc5b47c4.jpg",
+    "static/media/logo-vnpay.png": "/jm/static/media/logo-vnpay.2d08cc9a77856799c970.png",
+    "static/media/logo_momo.png": "/jm/static/media/logo_momo.164271a844d4f79e694f.png",
+    "static/media/top-header.jpg": "/jm/static/media/top-header.f61d0756f21443ee0b69.jpg",
+    "static/media/logo.png": "/jm/static/media/logo.5b6bccaffe8418c416b8.png",
+    "index.html": "/jm/index.html",
+    "main.0d9cb800.css.map": "/jm/static/css/main.0d9cb800.css.map",
+    "main.e5c0f42d.js.map": "/jm/static/js/main.e5c0f42d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d9cb800.css",
+    "static/js/main.e5c0f42d.js"
+  ]
+}
